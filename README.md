@@ -1,3 +1,4 @@
+
 # 🧠 AstraMind AI Dashboard – Full Stack AI Assistant Platform
 
 AstraMind is a **multi-modal AI dashboard** that combines **state-of-the-art AI models** (for text, image, audio, and video) into a sleek, secure, and user-friendly platform. It’s designed for developers, researchers, and hobbyists who want to experiment, scale, and deploy intelligent assistants.
@@ -132,6 +133,8 @@ AstraMind is a **multi-modal AI dashboard** that combines **state-of-the-art AI 
 ---
 
 ## 📁 PROJECT STRUCTURE
+
+```
 AstraMind/
 ├── frontend/           # Gradio or React-based UI
 ├── backend/            # FastAPI server and routing
@@ -141,4 +144,19 @@ AstraMind/
 ├── logs/               # Logs and dashboards
 ├── docker/             # Docker & K8s configuration
 └── README.md           # Full architecture overview
+```
 
+---
+
+## 🧑‍💻 CONTRIBUTION GUIDE
+
+- Fork the repo and clone.
+- Add new models in the `models/` directory.
+- Improve or restyle frontend in `frontend/`.
+- Submit a pull request with a clear description.
+
+---
+
+## 📜 LICENSE
+
+This project is licensed under the **MIT License**. Use it, modify it, and distribute it freely.
